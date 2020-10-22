@@ -6,8 +6,8 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
-const Internship = () => {
-  const { internship } = useContext(PortfolioContext);
+const Publication = () => {
+  const { publications } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -23,12 +23,12 @@ const Internship = () => {
   }, []);
 
   return (
-    <section id="projects">
+    <section id="publication">
       <Container>
         <div className="project-wrapper">
-          <Title title="Work Experience" />
-          {internship.map(internship => {
-            const { id, title, date, info, info2, url, repo, img } = internship;
+          <Title title="Publications" />
+          {publications.map(publication => {
+            const { id, title, info, info2, url, repo, img } = publication;
 
             return (
               <Row key={id}>
@@ -43,7 +43,6 @@ const Internship = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <p><strong>{date || 'Date'}</strong></p>
                         <p>
                           {info ||
                             'Project Info'}
@@ -57,7 +56,7 @@ const Internship = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        View
+                        See Live
                       </a>
                       )}
                       {repo && (
@@ -118,4 +117,4 @@ const Internship = () => {
   );
 };
 
-export default Internship;
+export default Publication;
