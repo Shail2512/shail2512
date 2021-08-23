@@ -38,15 +38,13 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    ''}
+                  {paragraphOne || ''}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    ''}
+                  {paragraphTwo || ''}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'I have done freelancing work in making websites, applications, machine learning model and digital marketing. I spend my time in doing online courses, competitive coding, playing piano and doing wildlife photography'}
+                  {paragraphThree || ''}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

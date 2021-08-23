@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile2.jpeg',
-  paragraphOne: 'I work as a software development engineer at Crest Data System where I develop softwares related to Big Data and Distributed Database Management Systems. ',
-  paragraphTwo: 'I have completed my undergraduation at Vishwakarma Government Engineering College in Information Technology with CGPA - 8.82. I truly believe the fact that theoretical knowledge is incomplete without the practical experience. I have learned more by dealing with edge cases rather than learning from books.',
-  paragraphThree: '',
+  paragraphOne: 'Shail Raval is pursuing Masters in Computer Science at Stony Brook University (SUNY) with specialization on the domains of Artificial Intelligence which includes Computer Vision and Natural Language Processing. He worked for 1 year at Crest Data Systems on developing new features and fixing customer issues of Cloud Addons of Splunk for Amazon Web Services, Microsoft Azure and Google Cloud Platform. ',
+  paragraphTwo: 'He completed his undergraduation at Vishwakarma Government Engineering College in Information Technology with CGPA - 8.82. He truly believes the fact that theoretical knowledge is incomplete without the practical experience. He has learned more by dealing with edge cases rather than learning from books.',
+  paragraphThree: 'He had done freelancing work in making websites, applications, machine learning model and digital marketing. He spend his time in doing online courses, competitive coding, playing piano and doing wildlife photography',
   resume: 'https://drive.google.com/file/d/1NRGmcJpjLb6A_t0Ig0RnpgoFl9QHG_pK/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -30,7 +30,7 @@ export const internshipData = [
     id: uuidv1(),
     img: 'crest.PNG',
     title: 'Software Development Engineer at Crest Data Systems, Ahmedabad, Gujarat, India',
-    date: 'September 2020 - Present',
+    date: 'September 2020 - August 2021',
     info: 'Developing softwares in the domain of big data analysis and distributed database management system',
     info2: 'Working on the cloud project utilizing concepts of splunk, python and terraform which deals with AWS, GCP and Azure',
     url: 'https://www.crestdatasys.com/',
