@@ -28,11 +28,21 @@ export const aboutData = {
 export const internshipData = [
   {
     id: uuidv1(),
+    img: 'hlab.PNG',
+    title: 'Graduate Researcher at HLAB Stony Brook University, Stony Brook, New York, USA',
+    date: 'August 2021 - Present',
+    info: 'Working on preditction of Depression and Anxiety for Adolesccent from multi-wave longitudinal data. Created dataset for single and multitask predictions using MySQL and DLATK framework from clinical analysis.',
+    info2: 'Developing custom stacked RNN using PyTorch for prediction of disorders in age 15 using age 3 to age 12 data.',
+    url: 'https://hlab.cs.stonybrook.edu/',
+    repo: '' // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'crest.PNG',
     title: 'Software Development Engineer at Crest Data Systems, Ahmedabad, Gujarat, India',
     date: 'September 2020 - August 2021',
-    info: 'Developing softwares in the domain of big data analysis and distributed database management system',
-    info2: 'Working on the cloud project utilizing concepts of splunk, python and terraform which deals with AWS, GCP and Azure',
+    info: 'Developed new features and fixed customer issues for Splunk Add-ons for AWS, Microsoft Azure and Google Cloud Platform such as manipulation of checkpoint files, removal of data duplication and BOTO library upgradation. Worked on building automatic functional and unit test cases for Jenkins and CircleCI pipelines.',
+    info2: 'Performed integration of Crowdstrike data with Splunk Add-on for AWS for the input "SQS based S3" in 1 month.',
     url: 'https://www.crestdatasys.com/',
     repo: '' // if no repo, the button will not show up
   },
@@ -41,8 +51,8 @@ export const internshipData = [
     img: 'crest.PNG',
     title: 'Software Development Intern at Crest Data Systems, Ahmedabad, Gujarat, India',
     date: 'July 2020 - September 2020',
-    info: 'Trained on python, linux and splunk to develop softwares in the domain of big data analysis and distributed database management system',
-    info2: '',
+    info: 'Developed 2 Splunk add-ons to get hands-on for data ingestion and "Search Processing Language" of Splunk .',
+		info2: 'Learned to build automation test cases for Jenkins and CircleCI pipelines and understood the working of it.',
     url: 'https://www.crestdatasys.com/',
     repo: '' // if no repo, the button will not show up
   },
@@ -60,9 +70,9 @@ export const internshipData = [
     id: uuidv1(),
     img: 'Pilani.jpg',
     date: 'January 2020 - March 2020',
-    title: 'Research Intern at Birla Institute of Technology and Science (BITS), Pilani, Rajasthan, India',
-    info: 'Worked in AI/ML lab on the project "Slap Fingerprint Segmentation using Convolutional Autoencoders" where I implemented concepts of image processing, segmentation and object detection using opencv, keras and tensorflow',
-    info2: 'Developed a novel approach which reduced 80% of the failure cases of exisiting studies. The research paper regarding the novel approach is ready to publish in a journal',
+    title: 'Research Intern at AI/ML Lab Birla Institute of Technology and Science (BITS), Pilani, Rajasthan, India',
+    info: 'Researched with Professor Kamlesh Tiwari on a project to develop a novel approach for slap fingerprint segmentation using convolutional autoencoders at AI/ML lab and also performed hand classification. Implemented concepts of image processing, segmentation and object detection using Opencv, Keras and Tensorflow.',
+    info2: 'Achieved around 80\% reduction in failure cases using our approach compared to existing approaches.',
     url: 'https://aiml-lab.github.io/',
     repo: '' // if no repo, the button will not show up
   },
@@ -81,6 +91,24 @@ export const internshipData = [
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: uuidv1(),
+    img: 'video.PNG',
+    title: 'First-Person Action Recognition in Videos',
+    info: 'Extracted important image frames from the videos of JPL dataset which were labelled for 7 different activities. Implemented baseline model using pre-trained AlexNet with SVM classification and achieved accuracy of 38\%.',
+    info2: 'Fine-Tuned pre-trained ResNet and added classification layer which resulted in the validation accuracy of 71\%. Performed feature extraction using temporal pooling to collect spatial features from videos, trained using fusion of AlexNet and VGG16 and acheived the maximum accuracy of 75\%.',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'aspect.PNG',
+    title: 'Aspect Based Document Similarity',
+    info: 'Built dataset from Cord-19 by analysing similar aspects between 2 documents for multiclass multilabel classification.',
+    info2: 'Implemented longformer for sequence classification of 1024, 2048, and 4096 tokens on the documents along with the concept of gradient accumulation and achieved the best f1 score of 0.79.',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: uuidv1(),
     img: 'product.png',
